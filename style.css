@@ -125,6 +125,14 @@ h2 {
   padding-left: 120px;
   padding-top: 18px;
 }
+
+.work-look {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 700;
+  padding-bottom: 100px;
+}
+
 @media (max-width: 1000px) {
   .box {
     text-align: center;
@@ -206,6 +214,10 @@ h2 {
     text-align: center;
   }
   .about-section {
+    text-align: center;
+  }
+  .work-look {
+    padding-bottom: 40px;
     text-align: center;
   }
 }
