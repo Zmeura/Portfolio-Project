@@ -3,7 +3,6 @@ body {
 }
 h1 {
   font-family: "Playfair Display", serif;
-
   font-size: 96px !important;
   font-weight: bold;
   line-height: 1.5 !important;
@@ -21,6 +20,7 @@ h2 {
   font-size: 24px !important;
   font-weight: 200 !important;
   color: #272142;
+  padding-bottom: 50px;
 }
 .hero {
   background-color: #f9f7fe;
@@ -111,14 +111,14 @@ h2 {
   font-family: "Playfair Display", serif;
   font-size: 64px;
   font-weight: 700;
-  padding-top: 100px;
+  padding-top: 160px;
 }
 .about-me {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #272142;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .discription {
   font-family: "Poppins", sans-serif;
@@ -146,7 +146,7 @@ h2 {
 }
 
 .patricia-photo {
-  padding-top: 80px;
+  padding-top: 140px;
 }
 
 .box {
@@ -184,7 +184,7 @@ h2 {
   font-size: 64px;
   font-weight: 700;
   padding-bottom: 60px;
-  padding-top: 100px;
+  padding-top: 160px;
 }
 
 .contacts-style {
@@ -210,11 +210,11 @@ h2 {
   font-size: 64px;
   font-weight: 700;
   padding-bottom: 60px;
-  padding-top: 100px;
+  padding-top: 160px;
 }
 
 nav {
-  padding: 15px;
+  padding: 10px;
   overflow: hidden;
   background-color: #f9f7fe;
   position: fixed;
@@ -332,6 +332,12 @@ footer {
     font-size: 40px !important;
     line-height: 1 !important;
   }
+
+  h2 {
+    font-size: 18px !important;
+    padding-bottom: 10px;
+  }
+
   .around {
     padding: 15px 20px;
     text-align: center;
@@ -344,12 +350,16 @@ footer {
     font-family: "Playfair Display", serif;
     font-size: 40px;
     font-weight: 700;
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .discription {
     padding-bottom: 40px;
     padding-top: 14px;
+  }
+
+  .poject-discription {
+    padding-bottom: 15px;
   }
 
   .patricia-photo {
@@ -386,7 +396,7 @@ footer {
     text-align: center;
   }
   .work-look {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;
     font-size: 40px;
@@ -413,16 +423,17 @@ footer {
 
   .hi {
     font-family: "Poppins", sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     color: #272142;
-    padding-top: 20px;
+    padding-top: 15px;
+    margin-bottom: 15px;
   }
 
   .in-touch {
     font-size: 40px;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .codedby {
@@ -431,5 +442,10 @@ footer {
 
   body {
     padding: 30px 0;
+  }
+
+  .about-me {
+    font-size: 16px;
+    padding-top: 10px;
   }
 }
